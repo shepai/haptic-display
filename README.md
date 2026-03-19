@@ -1,2 +1,2 @@
 # haptic-display
-Haptic display code
+Haptic display 3D files and code
