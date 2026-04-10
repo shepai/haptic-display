@@ -94,3 +94,13 @@ class ArduinoSerial:
         if self.ser and self.ser.in_waiting:
             return self.ser.readline().decode(errors="ignore").strip()
         return None
+    
+if __name__=="__main__":
+    arduino = ArduinoSerial()  # auto-detect COM port
+
+    matrix = [[i + j for j in range(10)] for i in range(10)]
+    arduino.convert_image(matrix)
+
+    arduino.reset()
+
+    arduino.close()
