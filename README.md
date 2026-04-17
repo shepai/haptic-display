@@ -9,4 +9,6 @@ You will need to print off:
 
 In addition you will need to have the PCB manufactured. Listed is the schematics, BOM and placement files. 
 
+Firstly print all the parts off, we recommmend using a resin printer for the high resolution quality, making sure everything fits. 
+
 WORK IN PROGRESS
