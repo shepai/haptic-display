@@ -11,4 +11,9 @@ In addition you will need to have the PCB manufactured. Listed is the schematics
 
 Firstly print all the parts off, we recommmend using a resin printer for the high resolution quality, making sure everything fits. 
 
-WORK IN PROGRESS
+### PCB
+
+To make the PCB you can use our existing GERBER file under <a href="https://github.com/shepai/haptic-display/blob/main/PCB/compiled.zip">compiled.zip</a> along with the BOM and placement file in the <a href="https://github.com/shepai/haptic-display/tree/main/PCB">same folder</a>. 
+
+You can also make edits to the PCB by loading in the kicad file.
+<img src="Assets/pcb.png">
