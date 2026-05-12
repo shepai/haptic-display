@@ -17,3 +17,12 @@ To make the PCB you can use our existing GERBER file under <a href="https://gith
 
 You can also make edits to the PCB by loading in the kicad file.
 <img src="Assets/pcb.png">
+
+Sending the provided files to a PCB manufacturer may still need you to select parts. We are using the
+
+...
+... WORK in progress
+...
+
+
+### Assembly 
