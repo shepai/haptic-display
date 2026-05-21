@@ -5,20 +5,30 @@ haptic_display myHaptics(3, 5, 6);
 
 // Create a sample array of 100 integers
 int motorValues[100];
-
+Image img = {
+    {
+        {0,0,1,1,1,1,0,0,0,0},
+        {0,1,0,0,0,0,1,0,0,0},
+        {1,0,0,0,0,0,0,1,0,0},
+        {1,0,1,0,0,1,0,1,0,0},
+        {1,0,0,0,0,0,0,1,0,0},
+        {1,0,1,1,1,1,0,1,0,0},
+        {0,1,0,0,0,0,1,0,0,0},
+        {0,0,1,1,1,1,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0}
+    }
+};
 void setup() {
   Serial.begin(9600);
-
-  // Fill the array with some dummy data
-  for (int i = 0; i < 100; i++) {
-    motorValues[i] = i; 
-  }
-
   // Use the library functions
   myHaptics.reset();
-  myHaptics.send_to_motors(motorValues);
+ 
 }
 
 void loop() {
   // Your repeating code
+  myHaptics.setImage(img);
+  delay(5000);
+  myHaptics.reset()
 }
