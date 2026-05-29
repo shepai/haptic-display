@@ -34,10 +34,10 @@ class haptic_display {
         digitalWrite(_latchPin, HIGH);
     }
     // Constructor to set the pins
-    haptic_display(int pin1, int pin2, int pin3) {
-        _motorData  = dataPin;
-        _motorClock = clockPin;
-        _motorLatch = latchPin;
+    haptic_display() {
+        _motorData  = 45;
+        _motorClock = 42;
+        _motorLatch = 43;
         pinMode(_motorData, OUTPUT);
         pinMode(_motorClock, OUTPUT);
         pinMode(_motorLatch, OUTPUT);

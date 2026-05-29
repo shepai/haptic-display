@@ -1,7 +1,6 @@
 #include "haptic_display.h"
 
-// Initialize the class with your specific pins (e.g., pins 3, 5, and 6)
-haptic_display myHaptics(3, 5, 6);
+haptic_display myHaptics();
 
 // Create a sample array of 100 integers
 int motorValues[100];
